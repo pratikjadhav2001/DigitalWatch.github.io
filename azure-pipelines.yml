@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'a1e62026-b85a-4d3c-88a5-f1471fb94b4b'
   imageRepository: 'digitalwatchgithubio'
   containerRegistry: 'htmlappacrdemo.azurecr.io'
-  dockerfilePath: '/home/vsts/work/1/s/**/Dockerfile'
+  dockerfilePath: '/home/vsts/work/1/s/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'htmlappacrdemo1397941b-auth'
 
